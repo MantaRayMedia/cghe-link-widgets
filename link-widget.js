@@ -2,13 +2,12 @@
 !(function (e, t) {
 
   const container = document.querySelector('[data-cghe-widget="HelpDesk"]');
-  const base_url = window.location.origin;
 
   // Create an iframe.
   const iframe = document.createElement("iframe");
   // Add css
   const cssLink = document.createElement("link");
-  cssLink.href = base_url + "/sites/default/files/js/link-widget/style.css";
+  cssLink.href = "https://cdn.jsdelivr.net/gh/MantaRayMedia/cghe-link-widgets/style.css";
   cssLink.rel = "stylesheet";
   cssLink.type = "text/css";
   // Insert iframe before script's next sibling, i.e. after the script.
