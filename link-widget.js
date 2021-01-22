@@ -7,7 +7,7 @@
   const iframe = document.createElement("iframe");
   // Add css
   const cssLink = document.createElement("link");
-  cssLink.href = "https://cdn.jsdelivr.net/gh/MantaRayMedia/cghe-link-widgets/style.css";
+  cssLink.href = "https://cdn.jsdelivr.net/gh/MantaRayMedia/cghe-link-widgets@latest/style.css";
   cssLink.rel = "stylesheet";
   cssLink.type = "text/css";
   // Insert iframe before script's next sibling, i.e. after the script.
